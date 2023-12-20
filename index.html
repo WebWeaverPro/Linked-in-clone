@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Clone | LinkedIn</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <section class="section-header">
+        <div class="icon">
+            <span>
+                <svg class="main-icon pointer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                    data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24"
+                    focusable="false">
+                    <path
+                        d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z">
+                    </path>
+                </svg>
+            </span>
+            <span>
+                <input class="input-field" type="text" placeholder="Search.." />
+            </span>
+        </div>
+        <div class="right-menu">
+            <div class="header-home align-vertical-center pointer">
+                <div class="header-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24"
+                        fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                        <path d="M23 9v2h-2v7a3 3 0 01-3 3h-4v-6h-4v6H6a3 3 0 01-3-3v-7H1V9l11-7 5 3.18V2h3v5.09z">
+                        </path>
+                    </svg>
+                </div>
+                <div class="home-first-text fs-12">Home</div>
+            </div>
+            <div class="align-vertical-center pointer">
+                <div class="header-icon">
+                    <svg class="blurred-icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                        data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24"
+                        focusable="false">
+                        <path
+                            d="M12 16v6H3v-6a3 3 0 013-3h3a3 3 0 013 3zm5.5-3A3.5 3.5 0 1014 9.5a3.5 3.5 0 003.5 3.5zm1 2h-2a2.5 2.5 0 00-2.5 2.5V22h7v-4.5a2.5 2.5 0 00-2.5-2.5zM7.5 2A4.5 4.5 0 1012 6.5 4.49 4.49 0 007.5 2z">
+                        </path>
+                    </svg>
+                </div>
+                <div class="home-text fs-12">My-Network</div>
+            </div>
+            <div class="align-vertical-center pointer">
+                <div class="header-icon">
+                    <svg class="blurred-icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                        data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24"
+                        focusable="false">
+                        <path
+                            d="M17 6V5a3 3 0 00-3-3h-4a3 3 0 00-3 3v1H2v4a3 3 0 003 3h14a3 3 0 003-3V6zM9 5a1 1 0 011-1h4a1 1 0 011 1v1H9zm10 9a4 4 0 003-1.38V17a3 3 0 01-3 3H5a3 3 0 01-3-3v-4.38A4 4 0 005 14z">
+                        </path>
+                    </svg>
+                </div>
+                <div class="home-text fs-12">Jobs</div>
+            </div>
+            <div class="align-vertical-center pointer">
+                <div class="header-icon">
+                    <svg class="blurred-icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                        data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24"
+                        focusable="false">
+                        <path
+                            d="M16 4H8a7 7 0 000 14h4v4l8.16-5.39A6.78 6.78 0 0023 11a7 7 0 00-7-7zm-8 8.25A1.25 1.25 0 119.25 11 1.25 1.25 0 018 12.25zm4 0A1.25 1.25 0 1113.25 11 1.25 1.25 0 0112 12.25zm4 0A1.25 1.25 0 1117.25 11 1.25 1.25 0 0116 12.25z">
+                        </path>
+                    </svg>
+                </div>
+                <div class="home-text fs-12">Messaging</div>
+            </div>
+            <div class="align-vertical-center pointer">
+                <div class="header-icon">
+                    <svg class="blurred-icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                        data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24"
+                        focusable="false">
+                        <path
+                            d="M22 19h-8.28a2 2 0 11-3.44 0H2v-1a4.52 4.52 0 011.17-2.83l1-1.17h15.7l1 1.17A4.42 4.42 0 0122 18zM18.21 7.44A6.27 6.27 0 0012 2a6.27 6.27 0 00-6.21 5.44L5 13h14z">
+                        </path>
+                    </svg>
+                </div>
+                <div class="home-text fs-12 count-notification">Notifications</div>
+            </div>
+            <div class="align-vertical-center pointer">
+                <div class="header-icon">
+                    <img class="profile-pic" src="./img/profile.jpg" alt="Profile Pic" />
+                </div>
+                <div class="home-text fs-12">Me</div>
+            </div>
+        </div>
+    </section>
+    <main>
+        <section class="main-section">
+            <div class="left-content">
+                <div class="left-content-1">
+                    <div class="header-content-1">
+                        <div class="background-profile-img"></div>
+                        <img class="left-profile-img" src="./img/profile.jpg" alt="Profile" />
+                    </div>
+                    <div class="body-content-1">
+                        <div class="profile-name fs-16 text-align-center">
+                            <p>Aditya Chaubey</p>
+                        </div>
+                        <div class="profile-description text-align-center">
+                            <p class="fs-12">Angular || Javascript || HTML || CSS || C++</p>
+                        </div>
+                    </div>
+                    <div class="set-border"></div>
+                    <div class="body-content-2">
+                        <div class="profile-content">
+                            <div class="profile-content-1">
+                                <span class="fs-12 content-text">Who viwed your profile</span>
+                                <span class="fs-12 content-count pointer">83</span>
+                            </div>
+                            <div class="profile-content-2">
+                                <span class="fs-12 content-text">Impressions of your post</span>
+                                <span class="fs-12 content-count pointer">900</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="set-border"></div>
+                    <div class="body-content-3">
+                        <div class="profile-content">
+                            <div>
+                                <span class="fs-12 content-text">Acesss inclusive tools & insights</span>
+                            </div>
+                            <div class="profile-content-3">
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                        data-supported-dps="24x24" class="mercado-match" width="24" height="24"
+                                        focusable="false">
+                                        <path
+                                            d="M20 20a3.36 3.36 0 001-2.39V6.38A3.38 3.38 0 0017.62 3H6.38A3.36 3.36 0 004 4z"
+                                            fill="#f8c77e"></path>
+                                        <path
+                                            d="M4 4a3.36 3.36 0 00-1 2.38v11.24A3.38 3.38 0 006.38 21h11.24A3.36 3.36 0 0020 20z"
+                                            fill="#e7a33e"></path>
+                                    </svg>
+                                </span>
+                                <span class="fs-12 content-text-3">Get Hired Faster, Try Premium Free ❤️</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="set-border"></div>
+                    <div class="body-content-4">
+                        <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16"
+                                fill="currentColor" width="16" height="16" focusable="false">
+                                <path d="M12 1H4a1 1 0 00-1 1v13.64l5-3.36 5 3.36V2a1 1 0 00-1-1z"></path>
+                            </svg></span>
+                        <span class="fs-12">My Items</span>
+                    </div>
+                </div>
+
+                <div class="left-content-2">
+                    <p class="fs-12 recent-text">Recent</p>
+                    <div class="menu-items">
+                        <div class="items">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16"
+                                    fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+                                    <path
+                                        d="M2 2v9a3 3 0 003 3h6a3 3 0 003-3V2zm8.5 1.5a1 1 0 11-1 1 1 1 0 011-1zm-5 0a1 1 0 11-1 1 1 1 0 011-1zM12 11a1 1 0 01-1 1H5a1 1 0 01-1-1V7h8z">
+                                    </path>
+                                </svg>
+                            </span>
+                            <span class="fs-12">
+                                How to ace your big tech inter..
+                            </span>
+                        </div>
+                        <div class="items">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16"
+                                    fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+                                    <path
+                                        d="M6.65 11h2l-.33 3h2l.33-3H14V9h-3.13l.26-2H14V5h-2.65l.33-3h-2l-.33 3h-2l.33-3h-2l-.33 3H2v2h3.13l-.26 2H2v2h2.65l-.33 3h2zm.48-4h2l-.26 2h-2z">
+                                    </path>
+                                </svg>
+                            </span>
+                            <span class="fs-12">
+                                Hiring
+                            </span>
+                        </div>
+                        <div class="items">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16"
+                                    fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+                                    <path
+                                        d="M6.65 11h2l-.33 3h2l.33-3H14V9h-3.13l.26-2H14V5h-2.65l.33-3h-2l-.33 3h-2l.33-3h-2l-.33 3H2v2h3.13l-.26 2H2v2h2.65l-.33 3h2zm.48-4h2l-.26 2h-2z">
+                                    </path>
+                                </svg>
+                            </span>
+                            <span class="fs-12">
+                                microsoft
+                            </span>
+                        </div>
+                        <div class="items">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16"
+                                    fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+                                    <path
+                                        d="M6.65 11h2l-.33 3h2l.33-3H14V9h-3.13l.26-2H14V5h-2.65l.33-3h-2l-.33 3h-2l.33-3h-2l-.33 3H2v2h3.13l-.26 2H2v2h2.65l-.33 3h2zm.48-4h2l-.26 2h-2z">
+                                    </path>
+                                </svg>
+                            </span>
+                            <span class="fs-12">
+                                programming
+                            </span>
+                        </div>
+                        <div class="items">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16"
+                                    fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+                                    <path
+                                        d="M6.65 11h2l-.33 3h2l.33-3H14V9h-3.13l.26-2H14V5h-2.65l.33-3h-2l-.33 3h-2l.33-3h-2l-.33 3H2v2h3.13l-.26 2H2v2h2.65l-.33 3h2zm.48-4h2l-.26 2h-2z">
+                                    </path>
+                                </svg>
+                            </span>
+                            <span class="fs-12">
+                                recruitment
+                            </span>
+                        </div>
+                    </div>
+
+                    <p class="fs-12 groups-text">Groups</p>
+                    <div class="menu-items">
+                        <div class="items">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16"
+                                    fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+                                    <path
+                                        d="M8.5 7h-1A1.5 1.5 0 006 8.5V14h4V8.5A1.5 1.5 0 008.5 7zM12.75 8h-.5A1.25 1.25 0 0011 9.25V14h3V9.25A1.25 1.25 0 0012.75 8z">
+                                    </path>
+                                    <circle cx="8" cy="4" r="2"></circle>
+                                    <circle cx="12.5" cy="5.5" r="1.5"></circle>
+                                    <path d="M3.75 8h-.5A1.25 1.25 0 002 9.25V14h3V9.25A1.25 1.25 0 003.75 8z">
+                                    </path>
+                                    <circle cx="3.5" cy="5.5" r="1.5"></circle>
+                                </svg>
+                            </span>
+                            <span class="fs-12">
+                                JavaScript
+                            </span>
+                        </div>
+                        <div class="items">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16"
+                                    fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+                                    <path
+                                        d="M8.5 7h-1A1.5 1.5 0 006 8.5V14h4V8.5A1.5 1.5 0 008.5 7zM12.75 8h-.5A1.25 1.25 0 0011 9.25V14h3V9.25A1.25 1.25 0 0012.75 8z">
+                                    </path>
+                                    <circle cx="8" cy="4" r="2"></circle>
+                                    <circle cx="12.5" cy="5.5" r="1.5"></circle>
+                                    <path d="M3.75 8h-.5A1.25 1.25 0 002 9.25V14h3V9.25A1.25 1.25 0 003.75 8z">
+                                    </path>
+                                    <circle cx="3.5" cy="5.5" r="1.5"></circle>
+                                </svg>
+                            </span>
+                            <span class="fs-12">
+                                SaaS and It Jobs in India(http...
+                            </span>
+                        </div>
+                        <div class="items">
+                            <span class="fs-12 set-manual-padding">
+                                See All
+                            </span>
+                        </div>
+                    </div>
+
+
+                    <div class="events-tab">
+                        <span class="fs-12 groups-text">Events</span>
+                        <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16"
+                                fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+                                <path d="M14 9H9v5H7V9H2V7h5V2h2v5h5z"></path>
+                            </svg></span>
+                    </div>
+
+                    <p class="fs-12 groups-text">Followed Hastags</p>
+                    <div class="menu-items">
+                        <div class="items">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16"
+                                    fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+                                    <path
+                                        d="M2 2v9a3 3 0 003 3h6a3 3 0 003-3V2zm8.5 1.5a1 1 0 11-1 1 1 1 0 011-1zm-5 0a1 1 0 11-1 1 1 1 0 011-1zM12 11a1 1 0 01-1 1H5a1 1 0 01-1-1V7h8z">
+                                    </path>
+                                </svg>
+                            </span>
+                            <span class="fs-12">
+                                How to ace your big tech inter..
+                            </span>
+                        </div>
+                        <div class="items">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16"
+                                    fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+                                    <path
+                                        d="M6.65 11h2l-.33 3h2l.33-3H14V9h-3.13l.26-2H14V5h-2.65l.33-3h-2l-.33 3h-2l.33-3h-2l-.33 3H2v2h3.13l-.26 2H2v2h2.65l-.33 3h2zm.48-4h2l-.26 2h-2z">
+                                    </path>
+                                </svg>
+                            </span>
+                            <span class="fs-12">
+                                Hiring
+                            </span>
+                        </div>
+                        <div class="items">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16"
+                                    fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+                                    <path
+                                        d="M6.65 11h2l-.33 3h2l.33-3H14V9h-3.13l.26-2H14V5h-2.65l.33-3h-2l-.33 3h-2l.33-3h-2l-.33 3H2v2h3.13l-.26 2H2v2h2.65l-.33 3h2zm.48-4h2l-.26 2h-2z">
+                                    </path>
+                                </svg>
+                            </span>
+                            <span class="fs-12">
+                                microsoft
+                            </span>
+                        </div>
+                        <div class="items">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16"
+                                    fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+                                    <path
+                                        d="M6.65 11h2l-.33 3h2l.33-3H14V9h-3.13l.26-2H14V5h-2.65l.33-3h-2l-.33 3h-2l.33-3h-2l-.33 3H2v2h3.13l-.26 2H2v2h2.65l-.33 3h2zm.48-4h2l-.26 2h-2z">
+                                    </path>
+                                </svg>
+                            </span>
+                            <span class="fs-12">
+                                programming
+                            </span>
+                        </div>
+                        <div class="items align-center pointer">
+                            <span class="fs-12 set-manual-padding">
+                                Show more
+                            </span>
+
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16"
+                                    fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+                                    <path d="M1 5l7 4.61L15 5v2.39L8 12 1 7.39z"></path>
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="set-border"></div>
+
+                <div class="left-content-3">
+                    <p class="fs-16 text-align-center discover-more">Discover More</p>
+                </div>
+            </div>
+
+            <div class="center-content">
+                <div class="article-1">
+                    <div class="content-1">
+                        <img src="./img/profile.jpg" alt="Profile-Image">
+                        <span>Start a post</span>
+                    </div>
+                    <div class="content-2">
+                        <div class="internal-content">
+                            <span><svg class="icon-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                    data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24"
+                                    height="24" focusable="false">
+                                    <path
+                                        d="M19 4H5a3 3 0 00-3 3v10a3 3 0 003 3h14a3 3 0 003-3V7a3 3 0 00-3-3zm1 13a1 1 0 01-.29.71L16 14l-2 2-6-6-4 4V7a1 1 0 011-1h14a1 1 0 011 1zm-2-7a2 2 0 11-2-2 2 2 0 012 2z">
+                                    </path>
+                                </svg></span>
+                            <span class="icons-text">Photo</span>
+                        </div>
+                        <div class="internal-content">
+                            <span><svg class="icon-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                    data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24"
+                                    height="24" focusable="false">
+                                    <path
+                                        d="M19 4H5a3 3 0 00-3 3v10a3 3 0 003 3h14a3 3 0 003-3V7a3 3 0 00-3-3zm-9 12V8l6 4z">
+                                    </path>
+                                </svg></span>
+                            <span class="icons-text">Video</span>
+                        </div>
+                        <div class="internal-content">
+                            <span><svg class="icon-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                    data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24"
+                                    height="24" focusable="false">
+                                    <path
+                                        d="M3 3v15a3 3 0 003 3h12a3 3 0 003-3V3zm13 1.75A1.25 1.25 0 1114.75 6 1.25 1.25 0 0116 4.75zm-8 0A1.25 1.25 0 116.75 6 1.25 1.25 0 018 4.75zM19 18a1 1 0 01-1 1H6a1 1 0 01-1-1V9h14zm-5.9-3a1 1 0 00-1-1H12a3.12 3.12 0 00-1 .2l-1-.2v-3h3.9v1H11v1.15a3.7 3.7 0 011.05-.15 1.89 1.89 0 012 1.78V15a1.92 1.92 0 01-1.84 2H12a1.88 1.88 0 01-2-1.75 1 1 0 010-.25h1a.89.89 0 001 1h.1a.94.94 0 001-.88z">
+                                    </path>
+                                </svg></span>
+                            <span class="icons-text">Event</span>
+                        </div>
+                        <div class="internal-content">
+                            <span><svg class="icon-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                    data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24"
+                                    height="24" focusable="false">
+                                    <path
+                                        d="M21 3v2H3V3zm-6 6h6V7h-6zm0 4h6v-2h-6zm0 4h6v-2h-6zM3 21h18v-2H3zM13 7H3v10h10z">
+                                    </path>
+                                </svg></span>
+                            <span class="icons-text">Write article</span>
+                        </div>
+                    </div>
+                </div>
+                <button class="sort-button">
+                    <hr class="horizontal-line">
+                    <div class="rest-item">
+                        <span class="sort-by-text">Sort By:</span>
+                        <span>Top</span>
+                        <span>
+                            <svg class="pointer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"
+                                data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16"
+                                height="16" focusable="false">
+                                <path d="M8 11L3 6h10z" fill-rule="evenodd"></path>
+                            </svg>
+                        </span>
+                    </div>
+                </button>
+                <div class="article-2">
+                    <div class="top-section">
+                        <div class="top-section-1">
+                            <span class="article-2-img">
+                                <img src="./img/avik.jpg" alt="second image">
+                            </span>
+                            <span class="fs-12">
+                                Avik Sarkar
+                            </span>
+                            <span class="article-like fs-12">
+                                likes this
+                            </span>
+                        </div>
+                        <div class="set-border mb-12"></div>
+                        <div class="top-section-2">
+                            <span class="article-2-img-large">
+                                <img src="./img/profile.jpg" alt="second image">
+                            </span>
+                            <span>
+                                <div>
+                                    <span class="fs-14">
+                                        Aditya Chaubey
+                                    </span>
+                                    <span class="fs-14 article-like">
+                                        • 2nd
+                                    </span>
+                                </div>
+
+                                <div class="fs-14 article-like third-content">
+                                    SDE-3 @ LinkedIn
+                                </div>
+                                <div class="article-like fs-14 third-content">
+                                    2d •
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"
+                                            data-supported-dps="16x16" fill="currentColor" class="mercado-match"
+                                            width="16" height="16" focusable="false">
+                                            <path
+                                                d="M8 1a7 7 0 107 7 7 7 0 00-7-7zM3 8a5 5 0 011-3l.55.55A1.5 1.5 0 015 6.62v1.07a.75.75 0 00.22.53l.56.56a.75.75 0 00.53.22H7v.69a.75.75 0 00.22.53l.56.56a.75.75 0 01.22.53V13a5 5 0 01-5-5zm6.24 4.83l2-2.46a.75.75 0 00.09-.8l-.58-1.16A.76.76 0 0010 8H7v-.19a.51.51 0 01.28-.45l.38-.19a.74.74 0 01.68 0L9 7.5l.38-.7a1 1 0 00.12-.48v-.85a.78.78 0 01.21-.53l1.07-1.09a5 5 0 01-1.54 9z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                </div>
+                            </span>
+                        </div>
+
+                        <div class="top-section-3">
+                            <p class="fs-14 first-paragraph">
+                                Finally hard work has paid off.
+                            </p>
+                            <p class="fs-14 second-paragraph">
+                                I am happy to announce that i am starting a new position as SDE-3 @LinkedIn... <span
+                                    class="article-like pointer">See More</span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="mid-section">
+                        <img src="./img/linked-in.jpg" alt="Linked In">
+                    </div>
+
+                    <div class="bottom-section">
+                        <div class="bottom-section-1">
+                            <div class="bottom-section-1-flex">
+                                <span>
+                                    <img class="ml--9"
+                                        src="https://static-exp2.licdn.com/sc/h/8ekq8gho1ruaf8i7f86vd1ftt"
+                                        alt="thums-up">
+                                    <img class="ml--9"
+                                        src="https://static-exp2.licdn.com/sc/h/b1dl5jk88euc7e9ri50xy5qo8" alt="clap">
+                                    <img class="ml--9"
+                                        src="https://static-exp2.licdn.com/sc/h/cpho5fghnpme8epox8rdcds22" alt="love">
+                                </span>
+                                <span class="fs-12 article-like">
+                                    Avik Sarkar and 332 others
+                                </span>
+                            </div>
+                            <div class="set-border"></div>
+                        </div>
+
+                        <div class="bottom-section-2">
+                            <div class="like-icon">
+                                <span class="article-like">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                        data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24"
+                                        height="24" focusable="false">
+                                        <path
+                                            d="M19.46 11l-3.91-3.91a7 7 0 01-1.69-2.74l-.49-1.47A2.76 2.76 0 0010.76 1 2.75 2.75 0 008 3.74v1.12a9.19 9.19 0 00.46 2.85L8.89 9H4.12A2.12 2.12 0 002 11.12a2.16 2.16 0 00.92 1.76A2.11 2.11 0 002 14.62a2.14 2.14 0 001.28 2 2 2 0 00-.28 1 2.12 2.12 0 002 2.12v.14A2.12 2.12 0 007.12 22h7.49a8.08 8.08 0 003.58-.84l.31-.16H21V11zM19 19h-1l-.73.37a6.14 6.14 0 01-2.69.63H7.72a1 1 0 01-1-.72l-.25-.87-.85-.41A1 1 0 015 17l.17-1-.76-.74A1 1 0 014.27 14l.66-1.09-.73-1.1a.49.49 0 01.08-.7.48.48 0 01.34-.11h7.05l-1.31-3.92A7 7 0 0110 4.86V3.75a.77.77 0 01.75-.75.75.75 0 01.71.51L12 5a9 9 0 002.13 3.5l4.5 4.5H19z">
+                                        </path>
+                                    </svg>
+                                </span>
+                                <span class="pointer fs-14 article-like">
+                                    Like
+                                </span>
+                            </div>
+                            <div class="like-icon">
+                                <span class="article-like">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                        data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24"
+                                        height="24" focusable="false">
+                                        <path
+                                            d="M7 9h10v1H7zm0 4h7v-1H7zm16-2a6.78 6.78 0 01-2.84 5.61L12 22v-4H8A7 7 0 018 4h8a7 7 0 017 7zm-2 0a5 5 0 00-5-5H8a5 5 0 000 10h6v2.28L19 15a4.79 4.79 0 002-4z">
+                                        </path>
+                                    </svg>
+                                </span>
+                                <span class="pointer fs-14 article-like">
+                                    Comment
+                                </span>
+                            </div>
+                            <div class="like-icon">
+                                <span class="article-like">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                        data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24"
+                                        height="24" focusable="false">
+                                        <path
+                                            d="M23 12l-4.61 7H16l4-6H8a3.92 3.92 0 00-4 3.84V17a4 4 0 00.19 1.24L5.12 21H3l-.73-2.22A6.4 6.4 0 012 16.94 6 6 0 018 11h12l-4-6h2.39z">
+                                        </path>
+                                    </svg>
+                                </span>
+                                <span class="pointer fs-14 article-like">
+                                    Share
+                                </span>
+                            </div>
+                            <div class="like-icon">
+                                <span class="article-like">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                        data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24"
+                                        height="24" focusable="false">
+                                        <path d="M21 3L0 10l7.66 4.26L16 8l-6.26 8.34L14 24l7-21z"></path>
+                                    </svg>
+                                </span>
+                                <span class="pointer fs-14 article-like">
+                                    Send
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-content">
+                <div class="card-1">
+                    <div class="top-text">
+                        <p class="fs-16">LinkedIn News</p>
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16"
+                                fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+                                <path
+                                    d="M12 2H4a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2V4a2 2 0 00-2-2zm-3 8v2H7.5A1.5 1.5 0 016 10.5a1.56 1.56 0 01.1-.5l1.08-3h2.13l-1.09 3zm0-3.75A1.25 1.25 0 1110.25 5 1.25 1.25 0 019 6.25z">
+                                </path>
+                            </svg>
+                        </span>
+                    </div>
+                    <div class="card-body-1">
+                        <ul class="list-items">
+                            <li class="list-item">
+                                <p class="item-texts fs-14">Google to pull back on hiring</p>
+                                <ul class="secondary-text-lists">
+                                    <li class="secondary-text-item fs-12">17h ago</li>
+                                    <li class="secondary-text-item fs-12">21,398 readers</li>
+                                </ul>
+                            </li>
+                            <li class="list-item">
+                                <p class="item-texts fs-14">Is Hiring in IT slowing down?</p>
+                                <ul class="secondary-text-lists">
+                                    <li class="secondary-text-item fs-12">2h ago</li>
+                                    <li class="secondary-text-item fs-12">6,398 readers</li>
+                                </ul>
+                            </li>
+                            <li class="list-item">
+                                <p class="item-texts fs-14">Talent move to tier 2-cities</p>
+                                <ul class="secondary-text-lists">
+                                    <li class="secondary-text-item fs-12">3d ago</li>
+                                    <li class="secondary-text-item fs-12">7,959 readers</li>
+                                </ul>
+                            </li>
+                            <li class="list-item">
+                                <p class="item-texts fs-14">Choosing work from home for good</p>
+                                <ul class="secondary-text-lists">
+                                    <li class="secondary-text-item fs-12">1d ago</li>
+                                    <li class="secondary-text-item fs-12">2,227 readers</li>
+                                </ul>
+                            </li>
+                            <li class="list-item">
+                                <p class="item-texts fs-14">Twitter sues Musk for yanking deal</p>
+                                <ul class="secondary-text-lists">
+                                    <li class="secondary-text-item fs-12">21h ago</li>
+                                    <li class="secondary-text-item fs-12">8,347 readers</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bottom-text pointer">
+                        <span class="fs-16">
+                            Show more
+                        </span>
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16"
+                                fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+                                <path d="M1 5l7 4.61L15 5v2.39L8 12 1 7.39z"></path>
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="card-2">
+                    <div class="header-text-card-2">
+                        <span class="fs-12">Ad</span>
+                        <span>
+                            <svg class="pointer" viewBox="0 0 16 16" width="16" height="16"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <title>overflow-web-small</title>
+                                <g>
+                                    <g>
+                                        <path
+                                            d="M3,9.5A1.5,1.5,0,1,1,4.5,8,1.5,1.5,0,0,1,3,9.5ZM11.5,8A1.5,1.5,0,1,0,13,6.5,1.5,1.5,0,0,0,11.5,8Zm-5,0A1.5,1.5,0,1,0,8,6.5,1.5,1.5,0,0,0,6.5,8Z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg>
+                        </span>
+                    </div>
+                    <div class="card-body-2">
+                        <p class="fs-12">
+                            Multiple locations. 5 million sq.ft. One Experience.
+                        </p>
+                        <div class="central-content">
+                            <img class="card-2-img" src="./img/profile.jpg" alt="Profile-Image">
+                            <img class="card-2-img" src="./img/table-space.jpg" alt="Profile-Image">
+                        </div>
+                        <p class="fs-16 text-align-center">
+                            Does your managed office value Your experience?
+                        </p>
+                        <div class="follow-div">
+                            <a class="fs-16 follow-button" href="#">Follow</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-3">
+                    <div class="row-1">
+                        <span class="row-data">About</span>
+                        <span class="row-data">Accesibility</span>
+                        <span class="row-data">Help Center</span>
+                    </div>
+
+                    <div class="row-1">
+                        <span class="row-data">Price & Terms</span>
+                        <span class="row-data">Community</span>
+                        <span class="row-data">Ad Choices</span>
+                    </div>
+
+                    <div class="row-1">
+                        <span class="row-data">Advertising</span>
+                        <span class="row-data">Business Services</span>
+                    </div>
+
+                    <div class="row-1">
+                        <span class="row-data">Get The Linked In App</span>
+                        <span class="row-data">Accesibility</span>
+                    </div>
+                    <div class="row-last">
+                        <span>
+                            <em>Design Credit</em> ❤️
+                        </span>
+                        <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 14" data-supported-dps="56x14"
+                                fill="currentColor" class="mercado-match" width="56" height="14" focusable="false">
+                                <g>
+                                    <path class="background-mercado"
+                                        d="M22.1 8.2l3.09 3.8h-2.44L20 8.51V12h-2V2h2v5.88L22.54 5h2.55zm-8-3.4A2.71 2.71 0 0011.89 6V5H10v7h2V8.73a1.74 1.74 0 011.66-1.93C14.82 6.8 15 7.94 15 8.73V12h2V8.29c0-2.2-.73-3.49-2.86-3.49zM32 8.66a4.22 4.22 0 010 .44h-5.25v.07a1.79 1.79 0 001.83 1.43 2.51 2.51 0 001.84-.69l1.33 1a4.31 4.31 0 01-3.25 1.29 3.49 3.49 0 01-3.7-3.75 3.58 3.58 0 013.76-3.65C30.44 4.8 32 6.13 32 8.66zm-1.86-.86a1.46 1.46 0 00-1.59-1.4 1.64 1.64 0 00-1.8 1.4zM2 2H0v10h6v-2H2zm36 0h2v10h-1.89v-.7a2.44 2.44 0 01-2 .9 3.41 3.41 0 01-3.31-3.7 3.36 3.36 0 013.3-3.7 2.62 2.62 0 011.9.7zm.15 6.5a1.63 1.63 0 00-1.62-1.85A1.76 1.76 0 0034.9 8.5a1.76 1.76 0 001.63 1.85 1.63 1.63 0 001.62-1.85zM8 1.8A1.27 1.27 0 006.75 3a1.25 1.25 0 002.5 0A1.27 1.27 0 008 1.8zM7 12h2V5H7zM56 1v12a1 1 0 01-1 1H43a1 1 0 01-1-1V1a1 1 0 011-1h12a1 1 0 011 1zM46 5h-2v7h2zm.25-2a1.25 1.25 0 00-2.5 0 1.25 1.25 0 002.5 0zM54 8.29c0-2.2-.73-3.49-2.86-3.49A2.71 2.71 0 0048.89 6V5H47v7h2V8.73a1.74 1.74 0 011.66-1.93C51.82 6.8 52 7.94 52 8.73V12h2z">
+                                    </path>
+                                </g>
+                            </svg></span>
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
